@@ -1,0 +1,12 @@
+[
+    {
+        "sourceBaseURL":"https://github.com",
+        "sourceRelativeURL":"SharadChoudhury/Azure_Covid19_Analysis/raw/main/ecdc_data/cases_deaths.csv",
+        "sinkFileName":"cases_deaths.csv"
+    },
+    {
+        "sourceBaseURL":"https://github.com",
+        "sourceRelativeURL":"SharadChoudhury/Azure_Covid19_Analysis/raw/main/ecdc_data/hospital_admissions.csv",
+        "sinkFileName":"hospital_admissions.csv"
+    }
+]
