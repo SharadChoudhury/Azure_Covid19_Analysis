@@ -10,7 +10,7 @@ The Azure Components used here are :
 5. Azure SQL Database
 6. Azure Service Principal
 
-### Pipeline for Ingesting ECDC data from https://github.com/SharadChoudhury/Azure_Covid19_Analysis/raw/ecdc/main
+### Pipeline for Ingesting ECDC data 
 
 <img width="805" alt="Screenshot 2023-07-02 at 11 21 21 AM" src="https://github.com/SharadChoudhury/Azure_Covid19_Analysis/assets/65325622/b68992d0-64d4-469d-b81f-4b8c0e80ce77">
 
