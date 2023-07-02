@@ -7,4 +7,15 @@ The Azure Components used here are :
 3. Azure Data Factory
 4. Azure DataBricks
 
+Pipeline for 
+<img width="805" alt="Screenshot 2023-07-02 at 11 21 21 AM" src="https://github.com/SharadChoudhury/Azure_Covid19_Analysis/assets/65325622/b68992d0-64d4-469d-b81f-4b8c0e80ce77">
+
+Pipeline for 
+<img width="810" alt="Screenshot 2023-07-02 at 11 34 41 AM" src="https://github.com/SharadChoudhury/Azure_Covid19_Analysis/assets/65325622/5cb1853d-4575-40e0-a570-2098756a040c">
+
+Pipeline for
+<img width="1359" alt="Screenshot 2023-07-02 at 11 54 36 AM" src="https://github.com/SharadChoudhury/Azure_Covid19_Analysis/assets/65325622/30ae4cfd-1a46-4997-9ad5-5893da6c0904">
+
+Pipeline for 
+<img width="1353" alt="Screenshot 2023-07-02 at 12 08 09 PM" src="https://github.com/SharadChoudhury/Azure_Covid19_Analysis/assets/65325622/2867e178-0346-42dd-a2b0-582b1ed5d8da">
 
