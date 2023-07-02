@@ -10,6 +10,8 @@ The Azure Components used here are :
 5. Azure SQL Database
 6. Azure Service Principal
 
+## Extract
+
 ### Pipeline for Ingesting ECDC data 
 
 <img width="805" alt="Screenshot 2023-07-02 at 11 21 21 AM" src="https://github.com/SharadChoudhury/Azure_Covid19_Analysis/assets/65325622/b68992d0-64d4-469d-b81f-4b8c0e80ce77">
@@ -25,6 +27,7 @@ The Azure Components used here are :
 1. Store the the raw population file in population_raw/BLOB in Azure Blob container
 2. Implement a pipeline to fetch the raw file from the Blob container if it exists, then fetch its metadata and if the column count matches the required column count, then copy the file to ADLS.
 
+## Transform
 
 ### Pipeline for Processing Cases and Deaths data and storing the processed file in Data lake
 
@@ -46,7 +49,7 @@ The Azure Components used here are :
 
 ## Create a pipeline for transforming the population data using Databricks Pyspark Notebook
 
-1. Create a ADF pipeline that runs the Databricks Notebook for population file transformation
+1. Create a ADF pipeline that runs the Databricks Notebook for population file transformation and store the processed file in ADLS.
 
    
 ## Create a Master pipeline that runs both the child pipelines : 1. Ingesting Population data, 2. Transforming Population data using Databricks 
@@ -55,6 +58,7 @@ The Azure Components used here are :
 
 1. This pipeline should get triggered when the blob for raw population file is created
 
+## Load
 
 ## Create schemas for Cases and Deaths table, Hospital Admissions table in Azure SQL Database
 
