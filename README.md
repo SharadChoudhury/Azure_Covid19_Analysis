@@ -65,6 +65,6 @@ The Azure Components used here are :
 1. Run SQL scripts in Azure SQL Database to create the table schemas in your database.
 
 
-## Sqlize the processed Cases and Deaths file, Hospital Admissions file using the 
+## Sqlize the processed Cases and Deaths file, Hospital Admissions file 
 
 1. Create pipelines with Copy activity to copy the data from processed Cases and Deaths file, Hospital Admissions file to respective tables in the SQL database.
